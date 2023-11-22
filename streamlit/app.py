@@ -12,7 +12,7 @@ def write_project_info():
     Predicting youth employment based on data from labour market surveys in South Africa
     """)
 
-    st.image("web_cover.jpeg")
+    st.image("images/web_cover.jpeg")
 
     st.write("""
     ## About
