@@ -9,7 +9,7 @@ from preprocessing import preprocess_input
 
 app = FastAPI()
 
-model = joblib.load("../model/youth_income_pred.joblib") # Load model
+model = joblib.load("youth_income_pred.joblib") # Load model
 
 @app.get("/")
 def index():
