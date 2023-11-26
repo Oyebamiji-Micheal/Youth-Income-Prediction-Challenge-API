@@ -8,11 +8,12 @@
 ![reposize](https://img.shields.io/github/repo-size/Oyebamiji-Micheal/Youth-Income-Prediction-Challenge-API)
 [![Framework](https://img.shields.io/badge/FastAPI-blue.svg?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 
+
 <h3 align="center">A machine learning web app and API for predicting youth income based on data from labour market surveys in South Africa</h3>
 
 You can view the live demo of the web app <a href="https://oyebamiji-micheal-youth-income-prediction-challenge.streamlit.app">here</a>
 
-You can interact with the API <a href="#">here</a>
+You can interact with the API <a href="https://web-production-8bd9.up.railway.app/docs">here</a>
 
 <img src="images/repo_cover.jpeg">
 
@@ -22,7 +23,6 @@ You can interact with the API <a href="#">here</a>
 - [Dataset](#data)
 - [Insights from EDA](#insights)
 - [Models and Evaluation Metric](#model)
-- [Model Selection - Conclusion](#conclusion)
 - [Simple API Doc](#api)
 
 <a id="overview_objective"></a>
@@ -71,15 +71,15 @@ For the sake of simplicity, only one type of classification model (LightGBM Clas
 survey_date |   string     |    The date the survey was conducted | The format should be dd-mm-year|
 survey_round | int  |   Survey round   | Ranges from 1 to 4
 status | string    |   Prior Employment Status | Input should be any of the following: <br />"Studying", "Unemployed", "Wage Employed", "Self Employed", "Employment Programme", "Wage and Self Employed", "Other" |
-tenure  |  int   | Prior Employment Tenure (Days) | Feasible values in range from 1 to 220000 |
+tenure  |  int   | Prior Employment Tenure (Days) | Feasible values in range 1 to 220000 |
 geography | string | Geography | "Suburb", "Rural", "Urban" |
 province | string | Province | Input should be any of the following: <br /> "Mpumalanga", "North West", "Free State", "Eastern Cape", "Limpopo", "KwaZulu-Natal", "Gauteng", "Western Cape", "Northern Cape"
 matric | int | Matriculation | Enter 1 if matriculated and 0 otherwise |
 degree | int | Degree | Enter 1 if you have a degree and 0 otherwise |
 diploma | int | Diploma | Enter 1 if you have a diploma and 0 otherwise |
-school_quantile | string | School Quantile | School Quantile Ranking <br /> Values range from 0 to 5 |
+school_quantile | string | School Quantile | Values range from 0 to 5 |
 additional_lang | string | Additional Langauage | Input should be any of the following: <br /> "50 - 59 %", "40 - 49 %", "60 - 69 %", "70 - 79 %", "30 - 39 %", "80 - 100 %" |
-gender | int | Gender | Input should be either 0 or 1. <br /> Male corresponds to 0 while 1 corresponds to Female
+gender | int | Gender | 0 corresponds to male while 1 corresponds to Female
 sa_citizen | int | South Africa Citizen | Input should be either 0 or 1 
-birth_year | int | Birth Year | Feasible values <br /> Minimum: 1950, Maximum: 2010 |
+birth_year | int | Birth Year | Feasible values in the range 1950 to 2010 |
 birth_month | int | Birth Month | Input range from 1 to 12 |
