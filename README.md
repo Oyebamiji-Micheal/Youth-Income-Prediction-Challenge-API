@@ -1,5 +1,7 @@
 <h1 align="center">Youth Income Prediction Challenge API</h1>
 
+<div align="center">
+
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/sklearn-darkorange.svg?style=flat&logo=scikit-learn&logoColor=white)](http://www.pytorch.org/news.html)
 [![Framework](https://img.shields.io/badge/Streamlit-red.svg?style=flat&logo=streamlit&logoColor=white)](https://github.com/Oyebamiji-Micheal/Employee-Status-Prediction-Web-App/tree/main)
@@ -8,6 +10,7 @@
 ![reposize](https://img.shields.io/github/repo-size/Oyebamiji-Micheal/Youth-Income-Prediction-Challenge-API)
 [![Framework](https://img.shields.io/badge/FastAPI-blue.svg?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 
+</div>
 
 <h3 align="center">A machine learning web app and API for predicting youth income based on data from labour market surveys in South Africa</h3>
 
